@@ -28,4 +28,14 @@
 #endif
 }
 
+- (NSURL *)bundleURL
+{
+  return [self getBundleURL];
+}
+
+- (BOOL)bridgelessEnabled
+{
+  return YES;
+}
+
 @end
